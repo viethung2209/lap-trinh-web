@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Simple Form</title>
+</head>
+<body>
+    <form action="Form4Radio.php" method="get" >
+        <br>
+        Enter email address:
+        <input type="text" size="16" maxlength="20" name="email"    >
+        <br>
+        Enter name:
+        <input type="text" size="16" maxlength="50" name="name"    >
+        <br>
+        Enter Class:
+        <input type="text" size="16" maxlength="20" name="class"    >
+        <br>
+        Enter University:
+        <input type="text" size="16" maxlength="20" name="university"    >
+        <br>
+        <label for="hobby">Choose multi hobby:</label>
+        <select id="hobby" name="hobby" size="9" MULTIPLE>
+            <option value="dung">dung</option>
+            <option value="ngoi">ngoi</option>
+            <option value="ngu">ngu</option>
+            <option value="nam">nam</option>
+            <option value="an">an</option>
+            <option value="uong">uong</option>
+            <option value="ruou">ruou</option>
+            <option value="che">che</option>
+            <option value="co bac">co bac</option>
+        </select>
+        May we contact you ?
+        Yes <input type="radio" name="contact" value="Yes">
+        Yes <input type="radio" name="contact" value="No">
+        <br>
+        <input type="submit" value="Click To Submit">
+        <input type="Reset" value="Erase and Restart">
+    </form>
+</body>
+</html>
